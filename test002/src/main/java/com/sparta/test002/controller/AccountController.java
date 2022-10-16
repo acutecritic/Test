@@ -1,0 +1,15 @@
+package com.sparta.test002.controller;
+
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api")
+@RequiredArgsConstructor
+public class AccountController {
+    private final JwtUtil jwtUtil;
+
+
+}
